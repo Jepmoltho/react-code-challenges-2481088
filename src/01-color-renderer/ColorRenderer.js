@@ -33,6 +33,11 @@ export default function ColorRenderer() {
         page!
       </h2>
       {renderColors()}
+      {/*
+      {colors.map((e) => (
+        <Color name={e.name} hex={e.hex} />
+      ))}
+      */}
     </>
   );
 }
