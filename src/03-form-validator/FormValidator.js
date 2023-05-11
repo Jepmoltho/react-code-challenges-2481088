@@ -68,7 +68,7 @@ export default function FormValidator() {
   }
 
   return (
-    <form>
+    <form onSubmit={(e) => checkInputHandler(e)}>
       <h2>Sign Up!</h2>
       <label htmlFor="email">Email</label>
       <input
@@ -92,7 +92,7 @@ export default function FormValidator() {
       <input
         type="submit"
         value="Submit"
-        onClick={(e) => checkInputHandler(e)}
+        /*onClick={(e) => checkInputHandler(e)}*/
       />
     </form>
   );
