@@ -1,9 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function DogPics() {
-  const [dawg, setDawg] = useState(
-    "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_4172.jpg"
-  );
+  const [dawg, setDawg] = useState("");
   // API: https://dog.ceo/dog-api/
   async function getRandomDawg() {
     //const APIbaseUrl = "https://dog.ceo/api/breeds/image/random";
@@ -13,6 +11,10 @@ export default function DogPics() {
 
     setDawg(response.message);
   }
+
+  useEffect((e) => {
+    getRandomDawg();
+  }, []);
 
   return (
     <div className="dog-pics">
