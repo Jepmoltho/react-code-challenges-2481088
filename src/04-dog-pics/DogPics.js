@@ -7,7 +7,7 @@ export default function DogPics() {
     //const APIbaseUrl = "https://dog.ceo/api/breeds/image/random";
     const response = await fetch(
       "https://dog.ceo/api/breeds/image/random"
-    ).then((humlebuks) => humlebuks.json());
+    ).then((res) => res.json());
 
     setDawg(response.message);
   }
