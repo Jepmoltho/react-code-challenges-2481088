@@ -1,3 +1,3 @@
 export default function WindowEvent() {
-  return <h2>Text</h2>;
+  return <h2>Window event is active</h2>;
 }
