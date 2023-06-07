@@ -19,21 +19,10 @@ const colors = [
   },
 ];
 
-<<<<<<< HEAD
-export default function ColorRenderer () {
-  return colors.map(color =>
-    <Color
-      name={color.name}
-      hex={color.hex}
-      key={color.hex}
-    />
-  )
-=======
 function renderColors() {
   return colors.map((e) => {
     return <Color hex={e.hex} name={e.name} />;
   });
->>>>>>> 01_01b
 }
 
 export default function ColorRenderer() {
