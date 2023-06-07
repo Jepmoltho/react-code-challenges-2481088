@@ -15,28 +15,41 @@ function reducer (state, action) {
 }
 
 export default function SimpleCalculator () {
+<<<<<<< HEAD
   const [state, dispatch] = useReducer(reducer, initialState)
 
   const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+=======
+  const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+>>>>>>> 01_09b
   return (
     <div>
       <div>
         <h2>Number 1</h2>
         {numbers.map(number => (
+<<<<<<< HEAD
           <button
             key={number}
             onClick={() => dispatch({ type: 'SET_NUM_ONE', number })}
           >
+=======
+          <button key={number}>
+>>>>>>> 01_09b
             {number}
           </button>))}
       </div>
       <div>
         <h2>Number 2</h2>
         {numbers.map(number => (
+<<<<<<< HEAD
           <button
             key={number}
             onClick={() => dispatch({ type: 'SET_NUM_TWO', number })}
           >
+=======
+          <button key={number}>
+>>>>>>> 01_09b
             {number}
           </button>))}
       </div>
