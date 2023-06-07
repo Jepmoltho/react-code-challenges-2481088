@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import ShoppingCart from "./11-shopping-cart/ShoppingCart";
 import ShoppingCartExpected from "./11-shopping-cart/ShoppingCartExpectedSolution";
 =======
@@ -7,19 +8,32 @@ import "./App.css";
 //import ToggleWindowEvent from "./06-add-window-event/ToggleWindowEvent";
 import ToggleWindowEventFreestyle from "./06-add-window-event/ToggleWindowEvent";
 >>>>>>> 01_06b
+=======
+import "./App.css";
+import PixelArt from "./08-pixel-art/PixelArt";
+import PixelArtContext from "./08-pixel-art/PixelArtContext";
+import PixelArtFreeStyle from "./08-pixel-art/PixelArtFreestyle";
+>>>>>>> 01_08b
 
 function App() {
   return (
     <div className="App">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ShoppingCartExpected />
 =======
       <ToggleWindowEventFreestyle />
 >>>>>>> 01_06b
+=======
+      <PixelArtFreeStyle />
+      <PixelArt />
+      <PixelArtContext />
+>>>>>>> 01_08b
     </div>
   );
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 import "./App.css";
@@ -51,4 +65,6 @@ function App() {
 >>>>>>> 01_02b
 =======
 >>>>>>> 01_06b
+=======
+>>>>>>> 01_08b
 export default App;
