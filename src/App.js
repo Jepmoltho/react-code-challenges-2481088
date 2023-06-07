@@ -1,10 +1,12 @@
-import ShoppingCart from './11-shopping-cart/ShoppingCart'
-function App () {
+import ShoppingCart from "./11-shopping-cart/ShoppingCart";
+import ShoppingCartExpected from "./11-shopping-cart/ShoppingCartExpectedSolution";
+
+function App() {
   return (
-    <div className='App'>
-      <ShoppingCart />
+    <div className="App">
+      <ShoppingCartExpected />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
